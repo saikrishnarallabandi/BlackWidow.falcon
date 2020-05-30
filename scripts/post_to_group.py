@@ -4,22 +4,28 @@
 import json
 import facebook
 import os
+import random
 
 token = os.environ.get('FACEBOOK_TOKEN')
-id = os.environ.get('MY_GROUP_ID')
+group_id = str(os.environ.get('THOPGANG_GROUP_ID'))
+
+pics_path = '/home/srallaba/Pictures/ThopGang'
+print("The group is ", group_id)
+
+def get_pic(path = pics_path):
+  files = sorted(os.listdir(path))
+  file = random.choice(files)
+  return file
 
 def main():
     graph = facebook.GraphAPI(token)
-    #fields = ['first_name', 'location{location}','email','link']
     profile = graph.get_object(
         'me', fields='first_name,location,link,email,groups')
-    # return desired fields
-    print(json.dumps(profile, indent=5))
-    group = graph.get_object(id=id)
-    print(json.dumps(group, indent=1))
-    #print(id)
+    group = graph.get_object(id=group_id)
     id = group['id']
-    graph.put_photo(album_path=id + '/photos', image=open('temp.png', 'rb'), message='Look at this!')
+    pic = get_pic()
+    pic = pics_path + '/' + pic
+    graph.put_photo(album_path=id + '/photos', image=open(pic, 'rb'), message='Look at this!')
 
     print(group)
 

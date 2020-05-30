@@ -6,7 +6,7 @@ import facebook
 import os
 
 token = os.environ.get('FACEBOOK_TOKEN')
-
+id = os.environ.get('MY_GROUP_ID')
 
 def main():
     graph = facebook.GraphAPI(token)
@@ -15,8 +15,8 @@ def main():
         'me', fields='first_name,location,link,email,groups')
     # return desired fields
     print(json.dumps(profile, indent=5))
-    group = graph.get_object(id='520585181962695')
-    print(json.dumps(group, indent=2))
+    group = graph.get_object(id=id)
+    print(json.dumps(group, indent=1))
     #print(id)
     id = group['id']
     graph.put_photo(album_path=id + '/photos', image=open('temp.png', 'rb'), message='Look at this!')

@@ -3,11 +3,12 @@
 
 import json
 import facebook
-import os
+import os, sys
 import random
 
 token = os.environ.get('FACEBOOK_TOKEN')
 group_id = str(os.environ.get('THOPGANG_GROUP_ID'))
+timestamp = str(sys.argv[1])
 
 pics_path = '/home/srallaba/Pictures/ThopGang'
 print("The group is ", group_id)
@@ -25,7 +26,7 @@ def main():
     id = group['id']
     pic = get_pic()
     pic = pics_path + '/' + pic
-    graph.put_photo(album_path=id + '/photos', image=open(pic, 'rb'), message='Look at this!')
+    graph.put_photo(album_path=id + '/photos', image=open(pic, 'rb'), message='Look at this! Posting at ' + timestamp + ' EST')
 
     print(group)
 

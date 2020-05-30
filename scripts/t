@@ -1,0 +1,121 @@
+{
+     "id": "10214658040639693",
+     "first_name": "Sai",
+     "groups": {
+          "data": [
+               {
+                    "name": "Zero Waste Lifestyle- India \u00a9",
+                    "id": "220569591632645"
+               },
+               {
+                    "name": "De-Entanglement",
+                    "id": "520585181962695",
+                    "privacy": "CLOSED"
+               },
+               {
+                    "name": "CMZoomers - Still on Campus",
+                    "id": "607570036765622"
+               },
+               {
+                    "name": "Carnegie Mellon Memes for Spicy Teens",
+                    "id": "1685951785048177"
+               },
+               {
+                    "name": "Find True Love\ud83d\udc96",
+                    "id": "211827329218477"
+               },
+               {
+                    "name": "To Dining, With Love",
+                    "id": "656474297743935"
+               },
+               {
+                    "name": "CMU Thrift Shop [clothes only]",
+                    "id": "862939840430712"
+               },
+               {
+                    "name": "Ph.D. Comics",
+                    "id": "110630782313797"
+               },
+               {
+                    "name": "Overheard at Carnegie Mellon",
+                    "id": "168160887879"
+               },
+               {
+                    "name": "Just For Fun",
+                    "id": "1880144655542565"
+               },
+               {
+                    "name": "Facebook Fellowship and Emerging Scholar Winners",
+                    "id": "424913338012312"
+               },
+               {
+                    "name": "Awesome AI Papers (Deep Learning, Computer Vision, Robotics, NLP etc.)",
+                    "id": "1751425284929883"
+               },
+               {
+                    "name": "Pittsburgh Facebook Flea Market: Wanted, For Sale, or Free",
+                    "id": "208428072548022"
+               },
+               {
+                    "name": "High impact memes for PhD fiends",
+                    "id": "1690539757911687"
+               },
+               {
+                    "name": "Facebook Developer Circle: Casablanca",
+                    "id": "265793323822652"
+               },
+               {
+                    "name": "Experiments at CMU",
+                    "id": "383041931753841"
+               },
+               {
+                    "name": "Code, Tech and Caffeine",
+                    "id": "190277791450732"
+               },
+               {
+                    "name": "Sai krishna",
+                    "id": "366025200093774"
+               },
+               {
+                    "name": "IvyPlus Network",
+                    "id": "191801434328438"
+               },
+               {
+                    "name": "Crypto Enthusiasts",
+                    "id": "170010530281955"
+               },
+               {
+                    "name": "Crypto Talk & Info (Global)",
+                    "id": "2035728303314171"
+               },
+               {
+                    "name": "Litecoin",
+                    "id": "576008535802087"
+               },
+               {
+                    "name": "What Bitcoin Did",
+                    "id": "1387286041327722"
+               },
+               {
+                    "name": "Overlooked at Carnegie Mellon",
+                    "id": "895864897105532"
+               },
+               {
+                    "name": "PyLing: Pitt Python Linguistics Group",
+                    "id": "1386642611565076"
+               }
+          ],
+          "paging": {
+               "next": "https://graph.facebook.com/v7.0/10214658040639693/groups?access_token=EAAV4USJ4Qb0BABDRpUa6BBELQCtZCuyaUn7GgBWwZB1ReZAVZClNLVNWYVOAXosmrLAUNZAJmpK0DxeelevIW1Hl3lxibFvlnQKsI3tesG632nZA9iivZAkFJmVIx2TVJIHi7CISbblV7mdyz3hR1dM9LNDJ4Mv3bBOSsKvZBpPC5mk7EOnc6UeovHHbmG3tCTEZD&limit=25&after=QVFIUnh6VG9sNFRiLUQyRGVETkxpMlVVTnNDNUtpcEtHZAXRqQlNkSVE3YmRHRUF6YVI5M3lkelNGQTVkLUo3aFFxMUtPVTI3TFU2NFZAaSkhOVjczeTRwcVln",
+               "cursors": {
+                    "before": "QVFIUkZA2SEw5cmJRN2xrT0l3T1lqOExHQklqbWxYcjFRSy1ROW1nNXZAoYXhJY0d5ZAld1a2dMMkZAwUEt3cmJhVkcwSGlfVEMxTFdfbXdDekNMMzZAjZAFlPR0hn",
+                    "after": "QVFIUnh6VG9sNFRiLUQyRGVETkxpMlVVTnNDNUtpcEtHZAXRqQlNkSVE3YmRHRUF6YVI5M3lkelNGQTVkLUo3aFFxMUtPVTI3TFU2NFZAaSkhOVjczeTRwcVln"
+               }
+          }
+     }
+}
+{
+  "name": "De-Entanglement",
+  "id": "520585181962695",
+  "privacy": "CLOSED"
+}
